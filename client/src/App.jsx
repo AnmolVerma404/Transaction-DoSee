@@ -3,7 +3,7 @@ import {
   Loader,
   Navbar,
   Services,
-  Transaction,
+  Transactions,
   Welcome,
 } from "./components";
 
@@ -15,7 +15,7 @@ const App = () => {
         <Welcome/>
       </div>
         <Services/>
-        <Transaction/>
+        <Transactions/>
         <Footer/>
     </div>
   );
